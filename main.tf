@@ -8,7 +8,7 @@ provider "aws" {
 }
 
 # Create a bucket
-resource "aws_s3_bucket" "lakshmib11" {
+resource "aws_s3_bucket" "lakshmib1" {
 
   bucket = "s3-terraform-bucket-lakshmi-lab"
 
